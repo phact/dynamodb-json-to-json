@@ -1,0 +1,23 @@
+{
+  "name": "dynamodb-json-to-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phact/dynamodb-json-to-json.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phact/dynamodb-json-to-json/issues"
+  },
+  "homepage": "https://github.com/phact/dynamodb-json-to-json#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1015.0",
+    "fs": "0.0.1-security"
+  }
+}
