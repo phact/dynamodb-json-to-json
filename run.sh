@@ -1,8 +1,10 @@
 #!/bin/bash
 
+#export BUCKET=dump-to-astra
+#export KEY=AWSDynamoDB/01637614448672-63ce3708/data/6x7m6gorpi6jbnd43gbzdy2gf4.json.gz
 #export BUCKET=dynamodb-to-astra-export
 #export KEY=AWSDynamoDB/01636986635563-346da831/data/cog3ok2kdm2h5idqyapvqa75je.json.gz
-#export MAX_ERRORS=1000
+export MAX_ERRORS=100
 
 set -x
 
